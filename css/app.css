@@ -6,12 +6,22 @@ GENERAL
   margin: 0px auto;
 }
 
+.butter {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
 /*************************
 NAV-DESKTOP
 *************************/
-.nav-desktop{
-  background-color: grey;
+.nav-desktop, .top-bar ul {
+  background-color: transparent;
   height: 60px;
+  padding: 0;
 }
 
 .site-logo{
@@ -24,26 +34,52 @@ NAV-DESKTOP
   font-size: 35px;
 }
 
+.top-bar{
+  background-color: #5E8BA3;
+  padding: 0;
+}
+
+.nav-desktop a{
+  display: inline-block;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.menu > li > a:hover{
+  background-color: rgba(255,255,255, 0.1);
+}
+
+.menu a{
+  line-height: 2;
+}
+
 /*************************
 HERO
 *************************/
 .hero{
-  background: #999;
+  background: #CEE4F0;
   padding: 50px 0px;
   height: 300px;
 }
 
 .button{
-  background: purple;
+  background: blue;
 }
 /*************************
 MAIN
 *************************/
 .main{
-  margin: 40px 0;
+  padding: 30px 0px;
 }
 
+label{
+  font-size: 20px;
+}
 
+.button-right {
+    margin-left: 80%;
+}
 
 /*************************
 FOOTER
@@ -55,4 +91,8 @@ footer{
 
 footer a{
   display: block;
+}
+
+.footer-type{
+  line-height: 8px;
 }
