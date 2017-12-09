@@ -1,0 +1,58 @@
+/*************************
+GENERAL
+*************************/
+.wrap{
+  width: 90%;
+  margin: 0px auto;
+}
+
+/*************************
+NAV-DESKTOP
+*************************/
+.nav-desktop{
+  background-color: grey;
+  height: 60px;
+}
+
+.site-logo{
+  color: white;
+  font-size: 35px;
+}
+
+.site-logo:visited{
+  color: White;
+  font-size: 35px;
+}
+
+/*************************
+HERO
+*************************/
+.hero{
+  background: #999;
+  padding: 50px 0px;
+  height: 300px;
+}
+
+.button{
+  background: purple;
+}
+/*************************
+MAIN
+*************************/
+.main{
+  margin: 40px 0;
+}
+
+
+
+/*************************
+FOOTER
+*************************/
+footer{
+  background-color: gray;
+  padding: 50px 0px;
+}
+
+footer a{
+  display: block;
+}
